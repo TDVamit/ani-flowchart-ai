@@ -229,20 +229,21 @@ ELEMENT STYLE
 {{
   "backgroundColor": "#ffffff",
   "borderColor": "#6366f1",
-  "borderWidth": 1.5,     // 0-4
+  "borderWidth": 0,       // 0-4
   "borderRadius": 8,      // 0-50
-  "textColor": "#1e293b",
+  "textColor": "#7477fb",
   "fontSize": 13,         // 9-20
   "fontWeight": "normal" | "bold",
   "fontStyle": "normal" | "italic",
   "textAlign": "left" | "center" | "right",
   "fontFamily": "IBM Plex Sans" | "Inter" | "Poppins" | "Roboto" | "DM Sans" | "Montserrat",
   "opacity": 1,
-  "shadowEnabled": false,
-  "shadowColor": "rgba(0,0,0,0.15)",
-  "shadowBlur": 10,
+  "shadowEnabled": true,
+  "shadowColor": "#000000",
+  "shadowOpacity": 35,
+  "shadowBlur": 8,
   "shadowX": 0,
-  "shadowY": 3
+  "shadowY": 2
 }}
 
 ════════════════════════════════════════════════════════

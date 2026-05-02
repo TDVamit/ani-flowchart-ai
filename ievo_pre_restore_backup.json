@@ -1,0 +1,222 @@
+{
+  "id": "chart-1775692687361",
+  "name": "Ievo",
+  "created_at": "2026-04-09T05:28:07.361635",
+  "updated_at": "2026-05-01T11:41:11.305210",
+  "nodes": [
+    {
+      "id": "screen-1776081550666-2duq9",
+      "type": "screen",
+      "position": {
+        "x": 100,
+        "y": 100
+      },
+      "width": 534,
+      "height": 300,
+      "style": {
+        "width": 534,
+        "height": 300
+      },
+      "data": {
+        "label": "Screen 1",
+        "ratio": "16:9",
+        "backgroundColor": "#f8fafc",
+        "borderColor": "#6366f1",
+        "order": 0
+      },
+      "measured": {
+        "width": 534,
+        "height": 300
+      },
+      "selected": false
+    },
+    {
+      "id": "element-1776081562652-vcey9",
+      "type": "element",
+      "position": {
+        "x": 180.10002163237172,
+        "y": 182.4230304819293
+      },
+      "width": 120,
+      "height": 50,
+      "style": {
+        "width": 120,
+        "height": 50
+      },
+      "data": {
+        "elementType": "shape",
+        "shape": "rectangle",
+        "text": "Rectangle",
+        "style": {
+          "backgroundColor": "#ffffff",
+          "backgroundOpacity": 100,
+          "borderColor": "#6366f1",
+          "borderWidth": 1.5,
+          "borderRadius": 4,
+          "textColor": "#1e293b",
+          "fontSize": 13,
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "textAlign": "center",
+          "textVerticalAlign": "middle",
+          "fontFamily": "IBM Plex Sans",
+          "opacity": 1,
+          "shadowEnabled": false,
+          "shadowColor": "#000000",
+          "shadowOpacity": 20,
+          "shadowBlur": 8,
+          "shadowX": 0,
+          "shadowY": 2
+        },
+        "animation": {
+          "inType": "fade-in",
+          "duration": 0.4,
+          "delay": 0,
+          "stay": 0
+        },
+        "step": 1
+      },
+      "measured": {
+        "width": 120,
+        "height": 50
+      },
+      "selected": false,
+      "dragging": false
+    },
+    {
+      "id": "element-1776081573556-w6nfk",
+      "type": "element",
+      "position": {
+        "x": 180.10002163237172,
+        "y": 299.7637384465311
+      },
+      "width": 120,
+      "height": 50,
+      "style": {
+        "width": 120,
+        "height": 50
+      },
+      "data": {
+        "elementType": "shape",
+        "shape": "rounded-rect",
+        "text": "Rounded",
+        "style": {
+          "backgroundColor": "#ffffff",
+          "backgroundOpacity": 100,
+          "borderColor": "#6366f1",
+          "borderWidth": 1.5,
+          "borderRadius": 4,
+          "textColor": "#1e293b",
+          "fontSize": 13,
+          "fontWeight": "normal",
+          "fontStyle": "normal",
+          "textAlign": "center",
+          "textVerticalAlign": "middle",
+          "fontFamily": "IBM Plex Sans",
+          "opacity": 1,
+          "shadowEnabled": false,
+          "shadowColor": "#000000",
+          "shadowOpacity": 20,
+          "shadowBlur": 8,
+          "shadowX": 0,
+          "shadowY": 2
+        },
+        "animation": {
+          "inType": "fade-in",
+          "duration": 0.4,
+          "delay": 0,
+          "stay": 0
+        },
+        "step": 3
+      },
+      "measured": {
+        "width": 120,
+        "height": 50
+      },
+      "selected": false,
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "type": "animatedEdge",
+      "source": "element-1776081433164-ukvh3",
+      "sourceHandle": "bottom",
+      "target": "element-1776081562652-vcey9",
+      "targetHandle": "right",
+      "id": "edge-1776081592045-bkt3y",
+      "zIndex": 50,
+      "data": {
+        "edgeKind": "element",
+        "style": {
+          "color": "#6366f1",
+          "strokeWidth": 2,
+          "lineType": "solid",
+          "arrowType": "filled-arrow",
+          "pathType": "bezier",
+          "markerSize": 6
+        },
+        "animation": {
+          "type": "none",
+          "loop": "none",
+          "loopCount": 1,
+          "duration": 1,
+          "flowContent": {
+            "type": "none",
+            "text": "",
+            "size": 6,
+            "color": "#6366f1",
+            "loop": true,
+            "speed": 2
+          },
+          "inType": "fade-in",
+          "inDuration": 0.4,
+          "delay": 0,
+          "stay": 0
+        },
+        "step": 3
+      }
+    },
+    {
+      "type": "animatedEdge",
+      "source": "element-1776081562652-vcey9",
+      "sourceHandle": "right",
+      "target": "element-1776081573556-w6nfk",
+      "targetHandle": "right",
+      "id": "edge-1776081596710-vvj1v",
+      "zIndex": 50,
+      "data": {
+        "edgeKind": "element",
+        "style": {
+          "color": "#6366f1",
+          "strokeWidth": 2,
+          "lineType": "solid",
+          "arrowType": "filled-arrow",
+          "pathType": "bezier",
+          "markerSize": 6
+        },
+        "animation": {
+          "type": "none",
+          "loop": "none",
+          "loopCount": 1,
+          "duration": 1,
+          "flowContent": {
+            "type": "none",
+            "text": "",
+            "size": 6,
+            "color": "#6366f1",
+            "loop": true,
+            "speed": 2
+          },
+          "inType": "fade-in",
+          "inDuration": 0.4,
+          "delay": 0,
+          "stay": 0
+        },
+        "step": 2
+      }
+    }
+  ],
+  "share_id": "cxtxv6wTFM81clSm",
+  "_id": "69d738e7125e9402cf937fc1"
+}
